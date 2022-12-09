@@ -16,7 +16,7 @@ C) Para acceder a la consulta correspondiente a la cantidad de veces que se repi
 
 Ejemplo: /get_listedin/genero/Comedy
 
-D) Para acceder a la consulta correspondiente a el actor que más se repite según plataforma y año, mismo, realice una petición al siguiente endpoint:
+D) Para acceder a la consulta correspondiente a el actor que más se repite según plataforma y año, realice una petición al siguiente endpoint:
 
 /get_actor/plataforma/{plataforma}/anio/{anio}
 
