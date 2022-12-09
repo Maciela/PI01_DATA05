@@ -1,3 +1,4 @@
+#Librerias importadas:
 import pandas as pd
 
 #Ingesta de  lo csv a utilizar:
@@ -7,7 +8,8 @@ df_final=pd.read_csv("./Datasets_Consultas/actores.csv")
 
 ##FUNCIONES PARA REALIZAR LAS CONSULTAS##
 
-#Máxima duración según tipo de film (película/serie), por plataforma y por año: El request debe ser: get_max_duration(año, plataforma, [min o season])
+#Máxima duración según tipo de film (película/serie), por plataforma y por año: El request debe ser:
+# get_max_duration(año, plataforma, [min o season])
 def get_max_duration(anio, plataforma, min_or_season):
         df_rta=df[df['Plataforma'] == plataforma][df['release_year'] ==anio][df['min_or_season'] == min_or_season]
         rta=df_rta.groupby(['Plataforma', 'min_or_season', 'release_year'])['time'].idxmax()

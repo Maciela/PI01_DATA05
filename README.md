@@ -1,17 +1,16 @@
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
 
-*`Objetivos del proyecto:`*
+_`Objetivos del proyecto:`_
 
-+ Hacer un trabajo situándose en el rol de un **Data Engineer** ,
+- Hacer un trabajo situándose en el rol de un **Data Engineer** ,
 
-+ Internalizar los conocimientos requeridos para la elaboración y ejecución de una API.
+- Internalizar los conocimientos requeridos para la elaboración y ejecución de una API.
 
 El trabajo consistió ,en una _primera parte_, de un proceso de limpieza y normalización de los datos, para luego realizar la consultas requeridas en las consignas del proyecto. Este proceso se encuentra disponible en el archivo **"ETL.ipynb"**
 
 En una _segunda parte_ se realizó la tranformación los dataframes resultantes del proceso de ETL, el dataframe "df" y el "df_final", en archivos csv diferentes. Los mismos se encuentran disponibles en la carpeta Dataset_Consultas y reciben el nombre de **"tabla_consultas.csv"** para el dataframe "df" y **"actores.csv"** para el dataframe "df_final". Este paso se realizó para poder disponer de los dataframes resultantes del ETL , en el archivo donde se realizan las consultas que es **consultas.py**
 
 En un _tercer momento_, se crea la **API en un entorno Docker**, y se realizan las consultas de manera local.
-
 Finalmente , y como parte del PLUS que prone este proyecto, se desplegó la API en la nube, utilizando el servidor Mogenius.
 
 **A continuación se detalla la URL de la API y los resultados esperados:**
